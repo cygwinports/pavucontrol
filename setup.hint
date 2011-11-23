@@ -1,0 +1,7 @@
+category: Audio
+requires: libatkmm1.6_1 libcanberra-gtk3_0 libcanberra0 libgcc1 libglib2.0_0 libglibmm2.4_1 libgtk3_0 libgtkmm3.0_1 libintl8 libpulse-mainloop-glib0 libpulse0 libsigc2.0_0 libstdc++6
+sdesc: "PulseAudio Volume Control"
+ldesc: "PulseAudio Volume Control (pavucontrol) is a simple GTK based 
+volume control tool (mixer) for the PulseAudio sound server. In 
+contrast to classic mixer tools this one allows you to control both the 
+volume of hardware devices and of each playback stream separately."
