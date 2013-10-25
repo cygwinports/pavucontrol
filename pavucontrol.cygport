@@ -1,0 +1,13 @@
+inherit gnome2
+
+NAME="pavucontrol"
+VERSION=1.0
+RELEASE=1
+CATEGORY="Audio"
+SUMMARY="PulseAudio Volume Control"
+DESCRIPTION="PulseAudio Volume Control (pavucontrol) is a simple GTK based
+volume control tool (mixer) for the PulseAudio sound server. In contrast to
+classic mixer tools this one allows you to control both the volume of hardware
+devices and of each playback stream separately."
+HOMEPAGE="http://freedesktop.org/software/pulseaudio/pavucontrol/"
+SRC_URI="${HOMEPAGE}/${NAME}-${VERSION}.tar.gz"
