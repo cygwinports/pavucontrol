@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="pavucontrol"
-VERSION=2.0
+VERSION=3.0
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="PulseAudio Volume Control"
@@ -11,3 +11,6 @@ classic mixer tools this one allows you to control both the volume of hardware
 devices and of each playback stream separately."
 HOMEPAGE="http://freedesktop.org/software/pulseaudio/pavucontrol/"
 SRC_URI="${HOMEPAGE}/${NAME}-${VERSION}.tar.gz"
+
+# for recent glibmm
+CXXFLAGS+=" -std=gnu++11"
